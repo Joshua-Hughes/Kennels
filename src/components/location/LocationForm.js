@@ -1,5 +1,7 @@
 import React, { useContext, useEffect, useState } from "react"
 import { LocationContext } from "../location/LocationProvider"
+import { AnimalContext } from "../animal/AnimalProvider"
+import { EmployeeContext } from "../employee/EmployeeProvider"
 import { useHistory } from 'react-router-dom'
 
 export const LocationForm = () => {
